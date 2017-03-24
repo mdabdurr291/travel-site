@@ -1,5 +1,5 @@
 .site-header {
 	position: absolute;
 	z-index: 2;
-	background-color: rgba($mainCrimson, .6);
+	background-color: rgba($mainBlue, .3);
 }
