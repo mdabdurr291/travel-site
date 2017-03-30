@@ -681,7 +681,7 @@ a {
 @media (min-width: 1010px) {
 
   .page-section--testimonials.lazyloaded {
-    background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+    background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
     background-size: cover;
   }
 }
@@ -1025,11 +1025,11 @@ a {
 /* do not edit modules/_sprite directly as it is generated automatically by gulp. instead edit gulp/templates/sprite.css */
 
 .icon {
-		background-image: url('/assets/images/sprites/sprite-8eb89099.svg');
+		background-image: url('../../assets/images/sprites/sprite-8eb89099.svg');
 	}
 
 .no-svg {
-		background-image: url('/assets/images/sprites/sprite-8eb89099.png');
+		background-image: url('../../assets/images/sprites/sprite-8eb89099.png');
 	}
 
 .icon--clear-view-escapes {
@@ -1344,13 +1344,13 @@ a {
   }
 }
 
-.primary-nav li: last-child {
+.primary-nav li:last-child {
   padding-right: 0;
 }
 
 @media (min-width: 800px) {
 
-  .primary-nav li: last-child {
+  .primary-nav li:last-child {
     padding-right: 20px;
   }
 }
